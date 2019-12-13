@@ -8,6 +8,8 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/popper.min.js"></script>
   <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+  
+  <link href="./css/style.css" rel="stylesheet">
   <title>Home | Your Next Trip</title>
 </head>
 <body onload="reloadPosts()">
