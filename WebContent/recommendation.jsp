@@ -8,7 +8,7 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/popper.min.js"></script>
   <script src="./js/bootstrap.min.js" type="text/javascript"></script>
-  <title>Home | Your Next Trip</title>
+  <title>Recommend a Route | Your Next Trip</title>
 </head>
 <body>
 <%@ include file="header.html" %>
@@ -17,4 +17,5 @@
   </div>
 </div>
 </body>
+<%@ include file="footer.html" %>
 </html>
