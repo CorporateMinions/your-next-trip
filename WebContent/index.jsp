@@ -15,8 +15,9 @@
 <body>
 <%@ include file="header.html" %>
 <div class="container-fluid">
-  <div class="row" id="post-container">
+  <div class="row">
   </div>
 </div>
+<%@ include file="footer.html"%>
 </body>
 </html>

@@ -17,10 +17,10 @@
 <body>
 <%@ include file="header.html" %>
 <div class="container-fluid">
-  <div class="row" id="post-container">
+  <div class="row">
   	<h1>CONTENT</h1>
   </div>
 </div>
-</body>
 <%@ include file="footer.html" %>
+</body>
 </html>
