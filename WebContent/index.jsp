@@ -10,6 +10,13 @@
   <script src="./js/bootstrap.min.js" type="text/javascript"></script>
   
   <link href="./css/style.css" rel="stylesheet">
+  
+  <style>
+  	body{
+  		background-image:url('./image/qline.jpg');
+  	}
+  </style>
+  
   <title>Home | Your Next Trip</title>
 </head>
 <body>
