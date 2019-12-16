@@ -23,3 +23,10 @@ body {
 	border-radius: 10px;
 	padding: 10px;
 }
+
+.photo-card {
+	color: white;
+	background-color: rgba(255,255,255,0.2);
+	border: 3px solid white;
+	padding: 5px;
+}
