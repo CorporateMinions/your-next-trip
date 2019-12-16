@@ -17,11 +17,9 @@
 <body>
 <%@ include file="header.html" %>
 <div class="container-fluid">
-  <div class="row" id="post-container">
+  <div class="row">
   	<h1>The Corporate Minions</h1>
-  </div>
-	</div>
-	<div class="container">	
+  </div>	
 		<div class="row">
 			<div class="col"><img alt="minion1" src="image/minion1.png" class="img-fluid" width="290px">
 				¨<strong>HANI</strong> is a programming enthusiast and is currently participating in a program 
@@ -60,8 +58,6 @@
 		</div>	
 	
 	</div>
-
-
-</body>
 <%@ include file="footer.html" %>
+</body>
 </html>
