@@ -1,20 +1,3 @@
 body{
 	background-color:#6495ed;
 }
-
-.footer{
-	width:100%;
-	position: absolute;
-	bottom: 0;
-}
-
-.footer-nav{
-	float:left;
-	display: inline-block;
-}
-
-.footer-phrase{
-	float: right;
-	display: inline-block;
-	color:white;
-}
