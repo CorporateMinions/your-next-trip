@@ -12,6 +12,12 @@
   <!-- External Styling -->
   <link href="./css/style.css" type="text/css" rel="stylesheet">
   
+  <style>
+  	body{
+  		background-image:url("./image/qline.jpg");
+  	}
+  </style>
+  
   <title>About Us | Your Next Trip</title>
 </head>
 <body>
