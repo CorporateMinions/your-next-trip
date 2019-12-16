@@ -16,8 +16,8 @@
 <body>
 <%@ include file="header.html" %>
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 mx-auto my-5">
+  <div class="row my-5">
+    <div class="col-md-6 col-sm-12">
       <form id="geocodingInput">
         <div class="form-group">
           <label for="sourceInput">Starting address</label>
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6 mx-auto">
+    <div class="col-md-6 col-sm-12">
       <div id="travelTypeOutput"></div>
     </div>
   </div>
@@ -52,6 +52,10 @@
   });
 
   const locations = {lat1: 0.0, lon1: 0.0, lat2: 0.0, lon2: 0.0};
+  const walking = ["image/walk.jpg", "Walking is the best way to travel a short distance. Not only is it good for the environment, walking also has many health benefits.<br/>Average speed: 3 MPH."];
+  const scooter = ["image/scooter.jpg", "Scooters are a great way to travel moderate distances. Lighter than a bike, the scooter is a lot of fun.<br/>Average speed: 35 MPH."];
+  const drive = ["image/drive.png", "Driving is the easiest way to travel long distances. With a car, you can go anywhere that there are roads, and with little fatigue.<br/>Average speed: 65 MPH."];
+  const fly = ["image/airplane.jpg", "Airplanes are the fastest way to travel long distances. While you can only depart and arrive at airports, an airplane is unparalleled in the speed department.<br/>Average speed: 575 MPH."];
 
   function haversineFormula(lat1,lon1,lat2,lon2) {
     const earthRadius = 6371; // km (change this constant to get miles)
@@ -67,8 +71,32 @@
   function showOutput(event) {
     event.preventDefault();
     const distance = haversineFormula(locations.lat1, locations.lon1, locations.lat2, locations.lon2);
-    // TODO: Display recommendation in #travelTypeOutput
-    document.getElementById("travelTypeOutput").textContent = distance + "km";
+    
+    const img = document.createElement("img");
+    const blurb = document.createElement("p");
+    const distanceDisplay = document.createElement("h3");
+    const outputDiv = document.getElementById("travelTypeOutput");
+    
+    var transport;
+    
+    if (distance < 2) {
+    	transport = walking;
+    } else if (distance < 10) {
+    	transport = scooter;
+    } else if (distance < 600) {
+    	transport = drive;
+    } else {
+    	transport = fly;
+    }
+    
+    img.src = transport[0];
+    blurb.innerHTML = transport[1];
+    distanceDisplay.textContent = (distance / 1.609) + " miles";
+    
+    outputDiv.innerHTML = "";
+    outputDiv.appendChild(img);
+    outputDiv.appendChild(distanceDisplay);
+    outputDiv.appendChild(blurb);
   }
 
   placesAutocomplete1.on('change', event => {
