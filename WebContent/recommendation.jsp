@@ -30,8 +30,6 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-  </div>
-  <div class="row">
     <div class="col-md-6 col-sm-12">
       <div id="travelTypeOutput"></div>
     </div>
@@ -90,8 +88,10 @@
     }
     
     img.src = transport[0];
+    img.style.height = "100px";
+    img.style.width = "100px";
     blurb.innerHTML = transport[1];
-    distanceDisplay.textContent = (distance / 1.609) + " miles";
+    distanceDisplay.textContent = Math.ceil(distance / 1.609) + " miles";
     
     outputDiv.innerHTML = "";
     outputDiv.appendChild(img);
