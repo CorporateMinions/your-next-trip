@@ -50,9 +50,9 @@
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion4.png" class="img-fluid"
-                 width="290px"> <strong>BERNIE</strong> I enjoy electronics,
-            history, and Contract Bridge. Per Scholas is giving me an
-            opportunity to learn Java and the full stack in an accelerated
+                 width="290px"> <strong>BERNIE</strong> enjoys electronics,
+            history, and Contract Bridge. Per Scholas has given him an
+            opportunity to learn Java become a full stack developer in an accelerated
             manner.
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
