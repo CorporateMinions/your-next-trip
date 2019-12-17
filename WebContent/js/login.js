@@ -8,20 +8,20 @@
 //Listener for submit
 
 function validateLogin(e) {
-	e.preventDefault();
-	
-	//Get values from event
-	var userEmail = e.target[0].value;
-	var userPassword = e.target[1].value;
+    e.preventDefault();
 
-	// Simple regex to check basic email and password syntax
-	var emailCheck = /^\w{1,64}@\w+[.][A-Za-z]{2,}/;
-	var passwordCheck = /[\w#!@$%^&*)(}{:">?;'.\/\\]+/;
+    //Get values from event
+    const userEmail = e.target[0].value;
+    const userPassword = e.target[1].value;
 
-	if (!emailCheck.test(userEmail) || !passwordCheck.test(userPassword)) {
-		alert("Error: Invalid email address or password");
-	} else {
-			window.location.replace("./recommendation.jsp");
-	}
+    // Simple regex to check basic email and password syntax
+    const emailCheck = /^\w{1,64}@\w+[.][A-Za-z]{2,}/;
+    const passwordCheck = /[\w#!@$%^&*)(}{:">?;'.\/\\]+/;
+
+    if (!emailCheck.test(userEmail) || !passwordCheck.test(userPassword)) {
+        alert("Error: Invalid email address or password");
+    } else {
+        window.location.replace("./recommendation.jsp");
+    }
 
 }
