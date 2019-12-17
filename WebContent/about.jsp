@@ -30,10 +30,10 @@
     <div class="row">
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion1.png" class="img-fluid"
-                 width="290px"> ¨<strong>HANI</strong> is a programming
+                 width="290px"> <strong>HANI</strong> is a programming
             enthusiast and is currently participating in a program to become a
             Java programmer. In his spare time he learns how to play piano and
-            golf¨.
+            golf.
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion2.png" class="img-fluid"
@@ -43,10 +43,10 @@
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion3.png" class="img-fluid"
-                 width="290px"> ¨<strong>NABEEL</strong> is a programming
+                 width="290px"> <strong>NABEEL</strong> is a programming
             enthusiast and is currently participating in a program to become a
             Java programmer. In his spare time he learns how to play piano and
-            golf¨.
+            golf.
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion4.png" class="img-fluid"
@@ -57,17 +57,16 @@
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion5.png" class="img-fluid"
-                 width="290px"> ¨<strong>ANDRES</strong> is a programming
+                 width="290px"> <strong>ANDRES</strong> is a programming
             enthusiast and is currently participating in a program to become a
             Java programmer. In his spare time he learns how to play piano and
-            golf¨.
+            golf.
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion6.png" class="img-fluid"
-                 width="290px"> ¨<strong>KEVIN</strong> is a programming
-            enthusiast and is currently participating in a program to become a
-            Java programmer. In his spare time he learns how to play piano and
-            golf¨.
+                 width="290px"> <strong>KEVIN</strong> enjoys programming, problem solving and working 
+                 in teams. Passionate about learning, currently enrolled at Per Scholas Full Stack Development 
+                 Java program to follow this pursuit.  
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion7.png" class="img-fluid"
@@ -76,10 +75,10 @@
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion8.png" class="img-fluid"
-                 width="290px"> ¨<strong>ALL THE MINIONS</strong> is a
+                 width="290px"> <strong>ALL THE MINIONS</strong> is a
             programming enthusiast and is currently participating in a program
             to become a Java programmer. In his spare time he learns how to play
-            piano and golf¨.
+            piano and golf.
         </div>
     </div>
 
