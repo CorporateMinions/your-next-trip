@@ -14,8 +14,8 @@ function validateLogin(e) {
     const userEmail = e.target[0].value;
     const userPassword = e.target[1].value;
 
-    // Simple regex to check basic email and password syntax
-    const emailCheck = /^\w{1,64}@\w+[.][A-Za-z]{2,}/;
+    //Regex to check basic email and password syntax
+    const emailCheck = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
     const passwordCheck = /[\w#!@$%^&*)(}{:">?;'.\/\\]+/;
 
     if (!emailCheck.test(userEmail) || !passwordCheck.test(userPassword)) {

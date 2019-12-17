@@ -43,10 +43,8 @@
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion3.png" class="img-fluid"
-                 width="290px"> <strong>NABEEL</strong> is a programming
-            enthusiast and is currently participating in a program to become a
-            Java programmer. In his spare time he learns how to play piano and
-            golf.
+                 width="290px"> <strong>NABEEL</strong> enjoys programming to his heart's content. He is currently enrolled in the
+                 Per Scholas Java development program. He enjoys video games and snowboarding in his spare time.
         </div>
         <div class="col-md-4 col-lg-3 photo-card">
             <img alt="minion1" src="image/minion4.png" class="img-fluid"

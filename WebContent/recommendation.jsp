@@ -59,9 +59,9 @@
     const locations = {lat1: 0.0, lon1: 0.0, lat2: 0.0, lon2: 0.0};
 
     const walking = ["image/walk.jpg", "<b>Walking</b> is the best way to travel a short distance. Not only is it good for the environment, walking also has many health benefits.<br/>Average speed: 3 MPH.", "Take a walk"];
-    const scooter = ["image/scooter.jpg", "<b>Scooters</b> are a great way to travel moderate distances. Lighter than a bike, the scooter is a lot of fun.<br/>Average speed: 35 MPH.", "Ride a scooter"];
-    const drive = ["image/drive.png", "<b>Driving</b> is the easiest way to travel long distances. With a car, you can go anywhere that there are roads, and with little fatigue.<br/>Average speed: 65 MPH.", "Drive a car"];
-    const fly = ["image/airplane.jpg", "<b>Airplanes</b> are the fastest way to travel long distances. While you can only depart and arrive at airports, an airplane is unparalleled in the speed department.<br/>Average speed: 575 MPH.", "Fly on an airplane"];
+    const scooter = ["image/scooter.jpg", "<b>Scooters</b> are a great way to travel moderate distances. Lighter than a bike, the scooter is a lot of fun.<br/>Average speed: 15 MPH and have a range of 20mph.", "Ride a scooter"];
+    const drive = ["image/drive.png", "<b>Driving</b> is the easiest way to travel long distances. With a car, you can go anywhere, that there are roads, the world is your oyster.<br/>Average speed: 65 MPH.", "Drive a car"];
+    const fly = ["image/airplane.jpg", "<b>Airplanes</b> are the fastest way to travel long distances. While you can only depart and arrive at airports, an airplane is unparalleled in the speed department. And if one is willing to spend it can be a very comfortable experience<br/>Average speed: 575 MPH.", "Fly on an airplane"];
 
     function haversineFormula(lat1, lon1, lat2, lon2) {
         const earthRadius = 6371; // km (change this constant to get miles)
