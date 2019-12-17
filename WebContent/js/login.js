@@ -21,7 +21,7 @@ function validateLogin(e) {
 	if (!emailCheck.test(userEmail) || !passwordCheck.test(userPassword)) {
 		alert("Error: Invalid email address or password");
 	} else {
-			document.getElementById("loginForm").submit();
+			window.location.replace("./recommendation.jsp");
 	}
 
 }
