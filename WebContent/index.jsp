@@ -42,24 +42,24 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="image/carousel-01.png" alt="First slide">
+                        <img class="d-block w-100" src="image/newyork.png" alt="New York">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>New York</h5>
-                            <small>Jonathan Riley</small>
+                            <small>By Daryan Shamkhali - Unsplash</small>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="image/carousel-02.png" alt="Second slide">
+                        <img class="d-block w-100" src="image/austria.png" alt="Austria">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Paris</h5>
-                            <small>Chris Karidis</small>
+                            <h5>Hallstatt, Austria</h5>
+                            <small>By Sorasak - Unsplash</small>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="image/carousel-03.png" alt="Third slide">
+                        <img class="d-block w-100" src="image/sydney.png" alt="Sydney">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Dubai</h5>
-                            <small>David Rodrigo</small>
+                            <h5>Pyrmont, Sydney</h5>
+                            <small>By Martyna Bober - Unsplash</small>
                         </div>
                     </div>
                 </div>
