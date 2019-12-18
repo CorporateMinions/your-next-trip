@@ -33,7 +33,7 @@
 <%@ include file="header.html" %>
 <div class="container-fluid">
     <div class="row mt-5">
-        <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+        <div class="col-sm-12 col-md-8 col-lg-5 mx-auto">
             <div id="placesCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#placesCarousel" data-slide-to="0" class="active"></li>
@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+        <div class="col-sm-12 col-md-8 col-lg-5 mx-auto">
             <form id="loginForm" onsubmit="validateLogin(event)">
                 <div class="form-group">
                     <label for="loginEmail">Email address</label>
@@ -100,5 +100,8 @@
     </div>
 </div>
 <%@ include file="footer.html" %>
+<script>
+	document.getElementById("loginEmail").focus();
+</script>
 </body>
 </html>
